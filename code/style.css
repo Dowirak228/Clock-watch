@@ -1,3 +1,55 @@
+* {
+   margin: 0;
+}
+
+body, html {
+   height: 100%;
+}
+
 .clock {
-   
+   background-image: url("../assets/img/brad-neathery-nPy0X4xew60-unsplash.jpg");
+
+   /* Full height */
+   height: 100%; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+
+.clock__space {
+   display: inline-block;
+   text-align: center;
+   border: 3px solid rgb(41, 36, 36);
+   border-radius: 12px;
+   padding: 30px 20px;
+   margin-top: 10px;
+}
+
+.clock__watch {
+   color: rgb(39, 84, 0);
+   text-shadow: 0px 0px 10px rgb(54, 255, 4);
+   font-size: 4rem;
+}
+
+.clock__btns {
+   margin-top: 30px;
+}
+
+.clock-btn {
+   width: 80px;
+   height: 30px;
+   background-color: rgba(255, 255, 255, 0.632);
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 12px;
+}
+
+.clock-btn:hover {
+   border: 2px solid rgb(2, 37, 141);
+}
+
+.clock-btn:active {
+   background-color: greenyellow;
 }
